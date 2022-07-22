@@ -1,0 +1,13 @@
+.footer {
+  background-image: url("../../assets/assets_Homework_Front-End_01/bitmap_2@2x.png");
+  background-repeat: no-repeat;
+  height: 288px;
+  width: 100%;
+  color: #f9f9f9;
+  padding-top: 100px;
+}
+
+.footer-content {
+  display: grid;
+  gap: 1rem;
+}

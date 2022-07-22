@@ -1,0 +1,44 @@
+.header{
+    background-image: url("../../assets/assets_Homework_Front-End_01/bitmap@2x.png");
+    background-repeat: no-repeat;
+    height: 640px;
+    color: white;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #cfb995;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 65px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.input-search{
+    border: none;
+    outline: none;
+    width: 300px;
+    background: transparent;
+    color: white
+}
+.input-search::placeholder{
+    color: white;
+}
+.search{
+    width: 35px;
+    height: 35px;
+}

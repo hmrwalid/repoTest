@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
