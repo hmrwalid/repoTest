@@ -8,7 +8,7 @@ export default function Nav() {
     <nav>
       <div className="container menu">
         <ul className="item-menu">
-          <li className="list-item">SO FUNKTIONIERT'S</li>
+          <li className="sofunktionierts list-item">SO FUNKTIONIERT'S</li>
           <li className="list-item">SONDERANGEBOTE</li>
           <li className="list-item" onClick={(e) => setHidden(!hidden)}>
             <img src={User} alt="user" />
@@ -19,7 +19,7 @@ export default function Nav() {
         {hidden ? (
           <div className="link">
             <ul className="link-items">
-              <li className="list">My published jokes</li>
+              <li className="list My-published-jokes">My published jokes</li>
               <li className="list">My saved jokes</li>
               <li className="list">Account Information</li>
               <li className="list">Publish new joke</li>

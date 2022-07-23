@@ -61,3 +61,24 @@ nav {
   height: 30px;
   border-bottom: 1px solid black;
 }
+
+
+.sofunktionierts{
+  width: 158px;
+  height: 19px;
+  margin: 20px 64px 21px 341px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+
+
+}
+.sofunktionierts :hover {
+  background-color: #d0ba93;
+  cursor: pointer;
+}
